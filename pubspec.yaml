@@ -1,7 +1,7 @@
 name: DLOTP
 version: 0.0.1
 description: >-
-  Handwritten CTOTP bindings in Dart Language
+  Handwritten COTP bindings in Dart Language
 author: Sachin Srivastava <mrsac7@gmail.com>
 environment:
   sdk: '>=2.6.0 <3.0.0'
