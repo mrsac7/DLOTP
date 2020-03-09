@@ -1,0 +1,26 @@
+LIBRARY   otpuri
+EXPORTS
+    OTPType
+    COTP_ALGO
+    OTPData
+    otp_new
+    totp_new
+    hotp_new
+    otp_free
+    otp_generate
+    otp_byte_secret
+    otp_int_to_bytestring
+    otp_random_base32
+    totp_compares
+    totp_comparei
+    totp_at
+    totp_now
+    totp_verifyi
+    totp_verifys
+    totp_valid_until
+    totp_timecode
+    hotp_compares
+    hotp_comparei
+    hotp_at
+    hotp_verifyi
+    hotp_verifys

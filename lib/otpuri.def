@@ -1,0 +1,4 @@
+LIBRARY   otpuri
+EXPORTS
+    otpuri_encode_url
+    otpuri_build_uri

@@ -1,0 +1,6 @@
+LIBRARY   crypt
+EXPORTS
+    ft
+    get_testcase
+    sha1
+    hmac_sha1
