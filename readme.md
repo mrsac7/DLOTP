@@ -13,7 +13,7 @@ Compatible with Authy and Google Authenticator. Full support for QR code url is 
 It uses [CMake](https://cmake.org) to generate a Makefile. To build the native library:
 
 ```bash
-cd lib
+cd lib/cotp_library
 cmake .
 make
 ```
@@ -21,4 +21,4 @@ The `make` command creates a `libhello.so` (Linux) library file.
 
 ## Running
 
-Once the native library is built, run `pub get` to resolve the dependencies then run `dart <filename>.dart`.
+Once the native library is built, run `pub get` to resolve the dependencies then run `dart main.dart`.
