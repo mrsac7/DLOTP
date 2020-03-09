@@ -15,24 +15,24 @@ int main(){
 
   // Dump data members of struct OTPData tdata
   print('\\\\ totp tdata \\\\');
-	print('tdata->digits: `${tdata.ref.digits}`');
-	print('tdata->interval: `${tdata.ref.interval}`');
-	print('tdata->bits: `${tdata.ref.bits}`');
-	print('tdata->method: `${tdata.ref.method}`');
-	print('tdata->algo: `${tdata.ref.algo}`');
-	print('tdata->digest: `${Utf8.fromUtf8(tdata.ref.digest)}`');
-	print('tdata->base32_secret: `${Utf8.fromUtf8(tdata.ref.base32_secret)}`');
-	print('// totp tdata //\n');
+  print('tdata->digits: `${tdata.ref.digits}`');
+  print('tdata->interval: `${tdata.ref.interval}`');
+  print('tdata->bits: `${tdata.ref.bits}`');
+  print('tdata->method: `${tdata.ref.method}`');
+  print('tdata->algo: `${tdata.ref.algo}`');
+  print('tdata->digest: `${Utf8.fromUtf8(tdata.ref.digest)}`');
+  print('tdata->base32_secret: `${Utf8.fromUtf8(tdata.ref.base32_secret)}`');
+  print('// totp tdata //\n');
 
-	// Dump data members of struct OTPData hdata
+  // Dump data members of struct OTPData hdata
   print('\\\\ hotp tdata \\\\');
-	print('hdata->digits: `${hdata.ref.digits}`');
-	print('hdata->bits: `${hdata.ref.bits}`');
-	print('hdata->method: `${hdata.ref.method}`');
-	print('hdata->algo: `${hdata.ref.algo}`');
-	print('hdata->digest: `${Utf8.fromUtf8(hdata.ref.digest)}`');
-	print('hdata->base32_secret: `${Utf8.fromUtf8(hdata.ref.base32_secret)}`');
-	print('// hotp tdata //\n');
+  print('hdata->digits: `${hdata.ref.digits}`');
+  print('hdata->bits: `${hdata.ref.bits}`');
+  print('hdata->method: `${hdata.ref.method}`');
+  print('hdata->algo: `${hdata.ref.algo}`');
+  print('hdata->digest: `${Utf8.fromUtf8(hdata.ref.digest)}`');
+  print('hdata->base32_secret: `${Utf8.fromUtf8(hdata.ref.base32_secret)}`');
+  print('// hotp tdata //\n');
 
   var now = (new DateTime.now()).millisecondsSinceEpoch;
   now = (now / 1000).round();
