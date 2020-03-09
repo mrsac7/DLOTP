@@ -7,6 +7,8 @@
 #include "../otpuri.h"
 #include "../crypt.h"
 
+//HMAC_SHA1 Algorithm is imported from crypt.h file
+
 int main(int argc, char** argv) {
 	
 	////////////////////////////////////////////////////////////////

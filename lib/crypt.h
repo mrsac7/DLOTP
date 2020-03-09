@@ -1,5 +1,3 @@
-
-
 unsigned long int ft(
                     int t,
                     unsigned long int x,
