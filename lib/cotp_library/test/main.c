@@ -168,8 +168,8 @@ int main(int argc, char** argv) {
 	free(hcode);
 	
 	// Do a verification for a hardcoded code
-	// Will succeed, 1 for JBSWY3DPEHPK3PXP == 996554
-	int hv = hotp_verifyi(hdata, 996554, 1);
+	// Will succeed, 1 for JBSWY3DPEHPK3PXP == 833905
+	int hv = hotp_verifyi(hdata, 833905, 1);
 	printf("HOTP Verification 1: `%s`\n", hv == 0 ? "false" : "true");
 	
 	
