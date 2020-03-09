@@ -22,3 +22,7 @@ The `make` command creates a `libhello.so` (Linux) library file.
 ## Running
 
 Once the native library is built, run `pub get` to resolve the dependencies then run `dart main.dart`.
+
+## Google Authenticator/Authy Support
+
+Generate a QR code from the URI generated on running `main.dart` and scan it in the app.
