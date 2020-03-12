@@ -21,7 +21,13 @@ The `make` command creates a `libhello.so` (Linux) library file.
 
 ## Running
 
-Once the native library is built, run `pub get` to resolve the dependencies then run `dart main.dart`. You would something like:
+Once the native library is built, run `pub get` to resolve the dependencies. To run the file:
+
+```bash
+cd bin
+dart main.dart
+```
+You would see something like:
 
 ```bash
 \\ totp tdata \\
