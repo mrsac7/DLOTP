@@ -1,6 +1,6 @@
 import 'dart:ffi';
 import 'package:ffi/ffi.dart';
-import 'lib/bindings.dart';
+import '../lib/dlotp.dart';
 
 int main(){
   const int INTERVAL = 30;
